@@ -1,0 +1,56 @@
+REGISTER.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Register" method="get">
+ Enter Username : <input type="text" name="uname"/><br>
+Enter password : <input type="password" name="pass"><br>
+Enter Email : <input type="text" name="email"/><br>
+Enter Phno: <input type="text" name="ph"/><br>
+Select Gender: <input type="radio" name="gen" value="male">Male
+<input type="radio" name="gen" value="female">Female
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+
+
+INDEX.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Login Form</h4>
+<form action="Login" method="get">
+Username : <input type="text" name="uname"/><br>
+password : <input type="password" name="pass">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+HOME.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Welcome User
+</body>
+</html>
